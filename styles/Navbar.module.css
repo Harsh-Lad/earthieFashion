@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.navBar {
+    /* position: fixed; */
+    width: 100vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(36, 58, 78, 0.2);
+}
+
+.navBrand {
+    color: #243A4E;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.navLink {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #243A4E;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* change color if the navLink is active */
+
+.navLink:hover {
+    color: #243A4E;
+    opacity: 1;
+}
+
+.searchBtn {
+    background: none;
+    border: none;
+    outline: none;
+    color: #243A4E;
+    opacity: 0.3;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #243A4E;
+    opacity: 0.8;
+    background-color: transparent;
+    width: 100%;
+}
+
+.searchWrapper {
+    background: #F0F5F8;
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.cart {
+    color: #243A4E;
+    background: #F0F5F8;
+    border-radius: 10px;
+}
+
+.loginBtn {
+    background: #F0F5F8;
+    border-radius: 10px;
+    color: #243A4E;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.userProfileImg {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    height: 20px;
+}
+
+.userProfile {
+    background: #20BEAD;
+    box-shadow: 4px 4px 10px rgba(32, 190, 173, 0.3);
+    border-radius: 23.5px;
+}
